@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuestPresso — Digital loyalty for independent cafés</title>
+<meta name="description" content="A digital loyalty card that lives in your customers' Apple and Google Wallet. Join the QuestPresso waitlist for early access.">
+<meta name="theme-color" content="#3E2417">
+<meta property="og:title" content="QuestPresso — Turn first-time customers into regulars">
+<meta property="og:description" content="Digital stamp cards, memberships and subscriptions for independent cafés. Join the waitlist.">
+<meta property="og:image" content="/icon.png">
+<link rel="icon" type="image/png" href="/icon.png">
+<link rel="apple-touch-icon" href="/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F1E8DA}
+a{color:#7A4A2E}a:hover{color:#3E2417}
+*{box-sizing:border-box}
+input:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #E8A15A;outline-offset:2px}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details[open] .chev{transform:rotate(45deg)}
+</style>
+<style>
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+@media (max-width:640px){.nav-link{display:none}}
+.wl-form.is-loading button[type=submit]{opacity:.6;cursor:wait}
+#top .wl-error{color:#F8C99A}
+#join .wl-error{color:#8B2E12}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div style="width: 100%; font-family: Outfit, system-ui, sans-serif; color: #2E1A10; background: #F1E8DA; font-size: 17px; line-height: 1.6">
+
+<!-- NAV + HERO -->
+<header style="background: #3E2417; color: #F8EBD5">
+<nav style="max-width: 1200px; margin: 0 auto; padding: 22px 24px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between">
+<a href="#top" style="display: flex; align-items: center; gap: 12px; color: #F8EBD5; text-decoration: none; font-family: Outfit, sans-serif; font-weight: 700; font-size: 26px; letter-spacing: -0.02em">
+<img src="/icon.png" alt="" width="40" height="40" style="width: 40px; height: 40px; border-radius: 10px; box-shadow: 0 0 0 1px #5A3826">
+QuestPresso
+</a>
+<div style="display: flex; flex-wrap: wrap; gap: 28px; align-items: center; font-size: 15px">
+<a class="nav-link" href="#features" style="color: #EBDCC4; text-decoration: none">Features</a>
+<a class="nav-link" href="#how" style="color: #EBDCC4; text-decoration: none">How it works</a>
+<a class="nav-link" href="#faq" style="color: #EBDCC4; text-decoration: none">FAQ</a>
+<a href="#join" style="color: #2E1A10; background: #E8A15A; padding: 11px 20px; border-radius: 999px; text-decoration: none; font-weight: 600">Join the waitlist</a>
+</div>
+</nav>
+
+<section id="top" style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 96px; display: flex; flex-wrap: wrap; gap: 64px; align-items: center">
+<div style="flex: 1 1 520px; min-width: 0">
+<p style="display: inline-flex; align-items: center; gap: 8px; margin: 0 0 24px; padding: 6px 14px; border: 1px solid #6E4630; border-radius: 999px; font-size: 14px; color: #EBDCC4">
+<span style="width: 8px; height: 8px; border-radius: 50%; background: #E8A15A"></span>
+Early access opening soon
+</p>
+<h1 style="margin: 0; font-family: Outfit, sans-serif; font-weight: 700; font-size: clamp(2.6rem, 5.4vw, 4.6rem); line-height: 1.02; letter-spacing: -0.02em">Turn first-time customers into <span style="color: #E8A15A">regulars.</span></h1>
+<p style="margin: 24px 0 0; font-size: 20px; color: #E0CDB1; max-width: 560px">A digital loyalty card that lives in your customers' Apple and Google Wallet. Your café gets the same retention tools the big chains use, and you can set it up in minutes, with no app for customers to download.</p>
+
+
+<form class="wl-form" data-source="hero" novalidate style="margin-top: 36px; display: flex; flex-wrap: wrap; gap: 12px; max-width: 560px">
+<div aria-hidden="true" style="position:absolute;left:-9999px"><label>Leave empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+<p class="wl-error" role="alert" hidden style="margin:0;flex-basis:100%;font-size:14px;font-weight:500"></p>
+<label for="email-hero" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Email address</label>
+<input id="email-hero" name="email" type="email" autocomplete="email" required placeholder="you@yourcafe.com" style="flex: 1 1 260px; min-width: 0; height: 56px; padding: 0 20px; border-radius: 999px; border: 1px solid #6E4630; background: #2E1A10; color: #F8EBD5; font: inherit; font-size: 16px">
+<button type="submit" style="height: 56px; padding: 0 28px; border: 0; border-radius: 999px; background: #E8A15A; color: #2E1A10; font: inherit; font-weight: 600; font-size: 16px; cursor: pointer">Get early access</button>
+</form>
+
+
+<div role="status" class="wl-success" hidden style="margin-top: 36px; max-width: 560px; padding: 18px 22px; border-radius: 18px; background: #2E1A10; border: 1px solid #6E4630; display: flex; gap: 14px; align-items: center">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>
+<span>You're on the list. We'll email <strong class="wl-email"></strong> when early access opens.</span>
+</div>
+
+
+<ul style="margin: 28px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px 28px; font-size: 15px; color: #E0CDB1">
+<li style="display: flex; gap: 8px; align-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Free for your first café</li>
+<li style="display: flex; gap: 8px; align-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>No app for customers</li>
+<li style="display: flex; gap: 8px; align-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Founding-member perks</li>
+</ul>
+</div>
+
+<!-- Wallet pass mockup -->
+<div style="flex: 1 1 360px; display: flex; justify-content: center; min-width: 0">
+<div role="img" aria-label="Example loyalty card in a phone wallet showing 7 of 10 stamps collected" style="width: 340px; max-width: 100%; padding: 14px; border-radius: 48px; background: #1A0F09; border: 1px solid #5A3826; box-shadow: 0 40px 80px rgba(0,0,0,0.45)">
+<div style="border-radius: 36px; background: #F1E8DA; padding: 26px 20px 30px; color: #2E1A10">
+<p style="margin: 0 0 16px; font-size: 13px; font-weight: 600; color: #6B4A36; text-align: center">Wallet</p>
+<div style="border-radius: 22px; background: #2E1A10; color: #F8EBD5; padding: 22px">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<span style="display: flex; align-items: center; gap: 10px; font-family: Outfit, sans-serif; font-weight: 700; font-size: 20px; letter-spacing: -0.02em"><img src="/icon.png" alt="" width="28" height="28" style="width: 28px; height: 28px; border-radius: 7px">[Your Café]</span>
+<span style="font-size: 12px; color: #E0CDB1">Loyalty card</span>
+</div>
+<div style="margin-top: 22px; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px">
+
+
+<div style="aspect-ratio: 1; border-radius: 50%; background: #E8A15A; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E1A10" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h13v5a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6V8z"></path><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"></path></svg></div>
+
+
+
+
+<div style="aspect-ratio: 1; border-radius: 50%; background: #E8A15A; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E1A10" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h13v5a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6V8z"></path><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"></path></svg></div>
+
+
+
+
+<div style="aspect-ratio: 1; border-radius: 50%; background: #E8A15A; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E1A10" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h13v5a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6V8z"></path><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"></path></svg></div>
+
+
+
+
+<div style="aspect-ratio: 1; border-radius: 50%; background: #E8A15A; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E1A10" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h13v5a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6V8z"></path><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"></path></svg></div>
+
+
+
+
+<div style="aspect-ratio: 1; border-radius: 50%; background: #E8A15A; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E1A10" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h13v5a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6V8z"></path><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"></path></svg></div>
+
+
+
+
+<div style="aspect-ratio: 1; border-radius: 50%; background: #E8A15A; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E1A10" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h13v5a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6V8z"></path><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"></path></svg></div>
+
+
+
+
+<div style="aspect-ratio: 1; border-radius: 50%; background: #E8A15A; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E1A10" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h13v5a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6V8z"></path><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"></path></svg></div>
+
+
+
+
+
+<div style="aspect-ratio: 1; border-radius: 50%; border: 2px dashed #8A6448"></div>
+
+
+
+
+<div style="aspect-ratio: 1; border-radius: 50%; border: 2px dashed #8A6448"></div>
+
+
+
+
+<div style="aspect-ratio: 1; border-radius: 50%; border: 2px dashed #8A6448"></div>
+
+
+</div>
+<div style="margin-top: 22px; display: flex; justify-content: space-between; font-size: 13px; color: #E0CDB1">
+<span>7 of 10 stamps</span><span>3 to a free drink</span>
+</div>
+<div style="margin-top: 20px; height: 84px; width: 84px; margin-left: auto; margin-right: auto; border-radius: 10px; background: #F8EBD5; padding: 10px; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 3px">
+<span style="background:#2E1A10"></span><span style="background:#2E1A10"></span><span></span><span style="background:#2E1A10"></span><span style="background:#2E1A10"></span>
+<span style="background:#2E1A10"></span><span></span><span style="background:#2E1A10"></span><span></span><span style="background:#2E1A10"></span>
+<span></span><span style="background:#2E1A10"></span><span style="background:#2E1A10"></span><span style="background:#2E1A10"></span><span></span>
+<span style="background:#2E1A10"></span><span></span><span style="background:#2E1A10"></span><span></span><span style="background:#2E1A10"></span>
+<span style="background:#2E1A10"></span><span style="background:#2E1A10"></span><span></span><span style="background:#2E1A10"></span><span style="background:#2E1A10"></span>
+</div>
+</div>
+<div style="margin-top: 14px; border-radius: 16px; background: #FFFFFF; padding: 14px 16px; display: flex; gap: 12px; align-items: center; font-size: 14px">
+<span style="width: 34px; height: 34px; flex: none; border-radius: 10px; background: #2E1A10; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path></svg></span>
+<span><strong>Stamp added.</strong> Three more to go.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</header>
+
+<!-- PROBLEM / SOLUTION -->
+<section style="max-width: 1200px; margin: 0 auto; padding: 112px 24px">
+<p style="margin: 0; font-weight: 600; color: #7A4A2E; font-size: 15px; text-transform: uppercase; letter-spacing: 0.08em">The problem</p>
+<h2 style="margin: 12px 0 0; font-family: Outfit, sans-serif; font-weight: 700; font-size: clamp(2rem, 3.6vw, 3.2rem); line-height: 1.08; letter-spacing: -0.02em; max-width: 760px">Paper stamp cards were made for a different decade.</h2>
+<div style="margin-top: 56px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
+<div style="padding: 36px; border-radius: 28px; background: #F8EBD5">
+<h3 style="margin: 0 0 20px; font-family: Outfit, sans-serif; font-size: 24px">Paper cards</h3>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px; color: #5A3826">
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B4A36" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M18 6 6 18M6 6l12 12"></path></svg>Left at home, lost in a wallet, or thrown away</li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B4A36" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M18 6 6 18M6 6l12 12"></path></svg>Reprinting every time the offer changes</li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B4A36" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M18 6 6 18M6 6l12 12"></path></svg>Easy to fake with a borrowed stamp</li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B4A36" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M18 6 6 18M6 6l12 12"></path></svg>No idea who your regulars are or when they stop coming</li>
+</ul>
+</div>
+<div style="padding: 36px; border-radius: 28px; background: #2E1A10; color: #F8EBD5">
+<h3 style="margin: 0 0 20px; font-family: Outfit, sans-serif; font-size: 24px">With QuestPresso</h3>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px; color: #EBDCC4">
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6 9 17l-5-5"></path></svg>Always in their phone wallet, right next to their payment card</li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6 9 17l-5-5"></path></svg>Change rewards instantly, with nothing to print</li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6 9 17l-5-5"></path></svg>Secure stamps that only your staff can give</li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6 9 17l-5-5"></path></svg>Know who visits, how often, and who's slipping away</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" style="background: #F8EBD5">
+<div style="max-width: 1200px; margin: 0 auto; padding: 112px 24px">
+<p style="margin: 0; font-weight: 600; color: #7A4A2E; font-size: 15px; text-transform: uppercase; letter-spacing: 0.08em">What you'll get</p>
+<h2 style="margin: 12px 0 0; font-family: Outfit, sans-serif; font-weight: 700; font-size: clamp(2rem, 3.6vw, 3.2rem); line-height: 1.08; letter-spacing: -0.02em; max-width: 760px">One platform for every way regulars come back.</h2>
+<div style="margin-top: 56px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px">
+
+<article style="padding: 32px; border-radius: 24px; background: #F1E8DA; border: 1px solid #E3D2B8; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 52px; height: 52px; border-radius: 14px; background: #2E1A10; display: flex; align-items: center; justify-content: center">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h18v10H3zM7 11h.01M11 11h.01M15 11h.01M7 14h.01M11 14h.01"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 23px; line-height: 1.2">Digital stamp cards</h3>
+<p style="margin: 0; color: #6B4A36">Classic &quot;buy X, get one free&quot; cards in Apple and Google Wallet. Stamps update instantly and can’t be faked.</p>
+<p style="margin: auto 0 0; padding-top: 8px; font-size: 14px; color: #7A4A2E; font-weight: 500">Buy 9 coffees, the 10th is on us</p>
+</article>
+
+<article style="padding: 32px; border-radius: 24px; background: #F1E8DA; border: 1px solid #E3D2B8; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 52px; height: 52px; border-radius: 14px; background: #2E1A10; display: flex; align-items: center; justify-content: center">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.4 1 6.2L12 16.8 6.5 19.5l1-6.2L3 8.9 9 8z"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 23px; line-height: 1.2">Memberships</h3>
+<p style="margin: 0; color: #6B4A36">Monthly perks bundles that customers pay for up front, like daily filter coffee plus a pastry each week.</p>
+<p style="margin: auto 0 0; padding-top: 8px; font-size: 14px; color: #7A4A2E; font-weight: 500">[Example price]/month café club</p>
+</article>
+
+<article style="padding: 32px; border-radius: 24px; background: #F1E8DA; border: 1px solid #E3D2B8; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 52px; height: 52px; border-radius: 14px; background: #2E1A10; display: flex; align-items: center; justify-content: center">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12V8H6a2 2 0 0 1 0-4h12v4M4 6v12a2 2 0 0 0 2 2h14v-4M18 12a2 2 0 0 0 0 4h4v-4z"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 23px; line-height: 1.2">Prepaid bundles</h3>
+<p style="margin: 0; color: #6B4A36">Sell packs of drinks in advance and get the cash before the cups are poured. Redeemed straight from the wallet.</p>
+<p style="margin: auto 0 0; padding-top: 8px; font-size: 14px; color: #7A4A2E; font-weight: 500">10 flat whites, paid today</p>
+</article>
+
+<article style="padding: 32px; border-radius: 24px; background: #F1E8DA; border: 1px solid #E3D2B8; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 52px; height: 52px; border-radius: 14px; background: #2E1A10; display: flex; align-items: center; justify-content: center">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7L21 8M21 3v5h-5"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 23px; line-height: 1.2">Subscriptions</h3>
+<p style="margin: 0; color: #6B4A36">Recurring coffee plans that turn your best customers into predictable monthly revenue.</p>
+<p style="margin: auto 0 0; padding-top: 8px; font-size: 14px; color: #7A4A2E; font-weight: 500">One drink a day, billed monthly</p>
+</article>
+
+<article style="padding: 32px; border-radius: 24px; background: #F1E8DA; border: 1px solid #E3D2B8; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 52px; height: 52px; border-radius: 14px; background: #2E1A10; display: flex; align-items: center; justify-content: center">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18M7 15l4-4 3 3 5-6"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 23px; line-height: 1.2">Customer insights</h3>
+<p style="margin: 0; color: #6B4A36">See who your regulars are, how often they visit, and who hasn’t been in for a while, all without a spreadsheet.</p>
+<p style="margin: auto 0 0; padding-top: 8px; font-size: 14px; color: #7A4A2E; font-weight: 500">Spot lapsed regulars early</p>
+</article>
+
+<article style="padding: 32px; border-radius: 24px; background: #F1E8DA; border: 1px solid #E3D2B8; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 52px; height: 52px; border-radius: 14px; background: #2E1A10; display: flex; align-items: center; justify-content: center">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E8A15A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9zM19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9z"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 23px; line-height: 1.2">AI growth advisor</h3>
+<p style="margin: 0; color: #6B4A36">Plain-language suggestions based on your own data: when to run a promo, which reward is working, and who to win back.</p>
+<p style="margin: auto 0 0; padding-top: 8px; font-size: 14px; color: #7A4A2E; font-weight: 500">“Tuesdays are slow. Try double stamps.”</p>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how" style="max-width: 1200px; margin: 0 auto; padding: 112px 24px">
+<p style="margin: 0; font-weight: 600; color: #7A4A2E; font-size: 15px; text-transform: uppercase; letter-spacing: 0.08em">How it works</p>
+<h2 style="margin: 12px 0 0; font-family: Outfit, sans-serif; font-weight: 700; font-size: clamp(2rem, 3.6vw, 3.2rem); line-height: 1.08; letter-spacing: -0.02em; max-width: 760px">Live before your next morning rush.</h2>
+<ol style="margin: 56px 0 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px">
+<li style="display: flex; flex-direction: column; gap: 12px; border-top: 2px solid #2E1A10; padding-top: 24px">
+<span style="font-family: Outfit, sans-serif; font-weight: 700; font-size: 56px; line-height: 1; color: #7A4A2E">01</span>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 24px">Set up your café</h3>
+<p style="margin: 0; color: #6B4A36">Add your name, logo and colors, then pick a reward from a template, like "Buy 9, get the 10th free."</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 12px; border-top: 2px solid #2E1A10; padding-top: 24px">
+<span style="font-family: Outfit, sans-serif; font-weight: 700; font-size: 56px; line-height: 1; color: #7A4A2E">02</span>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 24px">Put up your QR code</h3>
+<p style="margin: 0; color: #6B4A36">Print it for the counter. Customers scan it with their phone camera and add the card to their wallet in a few seconds.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 12px; border-top: 2px solid #2E1A10; padding-top: 24px">
+<span style="font-family: Outfit, sans-serif; font-weight: 700; font-size: 56px; line-height: 1; color: #7A4A2E">03</span>
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 24px">Stamp and watch them return</h3>
+<p style="margin: 0; color: #6B4A36">Staff add stamps from any phone or tablet. Customers get updates on their lock screen, and you see the trends.</p>
+</li>
+</ol>
+</section>
+
+<!-- GOALS / MISSION -->
+<section style="background: #2E1A10; color: #F8EBD5">
+<div style="max-width: 1200px; margin: 0 auto; padding: 112px 24px; display: flex; flex-wrap: wrap; gap: 64px">
+<div style="flex: 1 1 420px; min-width: 0">
+<p style="margin: 0; font-weight: 600; color: #E8A15A; font-size: 15px; text-transform: uppercase; letter-spacing: 0.08em">Our goal</p>
+<h2 style="margin: 12px 0 0; font-family: Outfit, sans-serif; font-weight: 700; font-size: clamp(2rem, 3.6vw, 3.2rem); line-height: 1.08; letter-spacing: -0.02em">Chain-level loyalty, built for independents.</h2>
+<p style="margin: 24px 0 0; color: #E0CDB1; font-size: 19px">The big coffee chains keep customers coming back with apps that cost millions. We're building the same retention tools for neighborhood cafés at a price small shops can afford, and making them simple enough to run during a rush.</p>
+</div>
+<div style="flex: 1 1 460px; min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px">
+<div style="padding: 26px; border-radius: 20px; background: #3E2417; border: 1px solid #5A3826"><h3 style="margin: 0 0 8px; font-family: Outfit, sans-serif; font-size: 20px">Free to start</h3><p style="margin: 0; color: #E0CDB1; font-size: 15px">Your first café is free on the core plan, with no card required.</p></div>
+<div style="padding: 26px; border-radius: 20px; background: #3E2417; border: 1px solid #5A3826"><h3 style="margin: 0 0 8px; font-family: Outfit, sans-serif; font-size: 20px">Your data stays yours</h3><p style="margin: 0; color: #E0CDB1; font-size: 15px">We never sell customer data or show ads to your regulars.</p></div>
+<div style="padding: 26px; border-radius: 20px; background: #3E2417; border: 1px solid #5A3826"><h3 style="margin: 0 0 8px; font-family: Outfit, sans-serif; font-size: 20px">No new hardware</h3><p style="margin: 0; color: #E0CDB1; font-size: 15px">It works on the phone or tablet you already have behind the counter.</p></div>
+<div style="padding: 26px; border-radius: 20px; background: #3E2417; border: 1px solid #5A3826"><h3 style="margin: 0 0 8px; font-family: Outfit, sans-serif; font-size: 20px">Built with cafés</h3><p style="margin: 0; color: #E0CDB1; font-size: 15px">Waitlist members help shape what we build first.</p></div>
+</div>
+</div>
+</section>
+
+<!-- FOUNDING PERKS + FORM -->
+<section id="join" style="max-width: 1200px; margin: 0 auto; padding: 112px 24px">
+<div style="border-radius: 36px; background: #E8A15A; color: #2E1A10; padding: clamp(36px, 6vw, 72px); display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<div style="flex: 1 1 440px; min-width: 0">
+<h2 style="margin: 0; font-family: Outfit, sans-serif; font-weight: 700; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.04; letter-spacing: -0.02em">Your regulars are waiting. Be first in line.</h2>
+<p style="margin: 20px 0 0; font-size: 19px; color: #3E2417">Join the waitlist and become a founding café:</p>
+<ul style="margin: 16px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px">
+<li style="display: flex; gap: 10px; align-items: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2E1A10" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Early access before public launch</li>
+<li style="display: flex; gap: 10px; align-items: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2E1A10" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>[Founding discount, e.g. X months of Pro free]</li>
+<li style="display: flex; gap: 10px; align-items: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2E1A10" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Hands-on help setting up your first card</li>
+</ul>
+</div>
+<div style="flex: 1 1 380px; min-width: 0">
+
+<form class="wl-form" data-source="join" novalidate style="background: #F8EBD5; color: #2E1A10; border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<div aria-hidden="true" style="position:absolute;left:-9999px"><label>Leave empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+<p class="wl-error" role="alert" hidden style="margin:0;flex-basis:100%;font-size:14px;font-weight:500"></p>
+<label for="cafe-name" style="font-weight: 600; font-size: 15px">Café name</label>
+<input id="cafe-name" name="cafe" type="text" autocomplete="organization" placeholder="Corner Street Coffee" style="height: 52px; padding: 0 18px; border-radius: 14px; border: 1px solid #D9C3A3; background: #FFFFFF; font: inherit; font-size: 16px; color: #2E1A10">
+<label for="email-join" style="font-weight: 600; font-size: 15px">Email</label>
+<input id="email-join" name="email" type="email" autocomplete="email" required placeholder="you@yourcafe.com" style="height: 52px; padding: 0 18px; border-radius: 14px; border: 1px solid #D9C3A3; background: #FFFFFF; font: inherit; font-size: 16px; color: #2E1A10">
+<button type="submit" style="margin-top: 6px; height: 56px; border: 0; border-radius: 999px; background: #2E1A10; color: #F8EBD5; font: inherit; font-weight: 600; font-size: 16px; cursor: pointer">Join the waitlist</button>
+<p style="margin: 0; font-size: 13px; color: #6B4A36; text-align: center">No spam. We'll only email you about launch.</p>
+</form>
+
+
+<div role="status" class="wl-success" hidden style="background: #F8EBD5; color: #2E1A10; border-radius: 24px; padding: 36px; text-align: center">
+<h3 style="margin: 0; font-family: Outfit, sans-serif; font-size: 28px">You're in.</h3>
+<p style="margin: 10px 0 0; color: #6B4A36">We'll email <span class="wl-email"></span> as soon as founding spots open.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" style="max-width: 860px; margin: 0 auto; padding: 0 24px 112px">
+<h2 style="margin: 0 0 32px; font-family: Outfit, sans-serif; font-weight: 700; font-size: clamp(2rem, 3.4vw, 2.8rem); letter-spacing: -0.02em; text-align: center">Questions, answered</h2>
+
+<details style="border-bottom: 1px solid #E3D2B8; padding: 22px 4px">
+<summary style="display: flex; justify-content: space-between; gap: 16px; align-items: center; font-weight: 600; font-size: 18px">Do my customers need to download an app?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7A4A2E" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" style="flex: none; transition: transform .2s"><path d="M12 5v14M5 12h14"></path></svg></summary>
+<p style="margin: 12px 0 0; color: #6B4A36">No. They scan your QR code with their phone camera and the card saves straight to Apple Wallet or Google Wallet.</p>
+</details>
+
+<details style="border-bottom: 1px solid #E3D2B8; padding: 22px 4px">
+<summary style="display: flex; justify-content: space-between; gap: 16px; align-items: center; font-weight: 600; font-size: 18px">What does it cost?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7A4A2E" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" style="flex: none; transition: transform .2s"><path d="M12 5v14M5 12h14"></path></svg></summary>
+<p style="margin: 12px 0 0; color: #6B4A36">Your first café will be free on the core plan. Paid plans for multiple locations and advanced features will be announced at launch, and founding cafés get a discount.</p>
+</details>
+
+<details style="border-bottom: 1px solid #E3D2B8; padding: 22px 4px">
+<summary style="display: flex; justify-content: space-between; gap: 16px; align-items: center; font-weight: 600; font-size: 18px">What equipment do I need?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7A4A2E" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" style="flex: none; transition: transform .2s"><path d="M12 5v14M5 12h14"></path></svg></summary>
+<p style="margin: 12px 0 0; color: #6B4A36">Just the phone or tablet you already use. Staff open the QuestPresso app to scan a customer’s card and add a stamp.</p>
+</details>
+
+<details style="border-bottom: 1px solid #E3D2B8; padding: 22px 4px">
+<summary style="display: flex; justify-content: space-between; gap: 16px; align-items: center; font-weight: 600; font-size: 18px">Can I change my rewards later?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7A4A2E" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" style="flex: none; transition: transform .2s"><path d="M12 5v14M5 12h14"></path></svg></summary>
+<p style="margin: 12px 0 0; color: #6B4A36">Yes. Edit your offer at any time and every customer’s card updates automatically.</p>
+</details>
+
+<details style="border-bottom: 1px solid #E3D2B8; padding: 22px 4px">
+<summary style="display: flex; justify-content: space-between; gap: 16px; align-items: center; font-weight: 600; font-size: 18px">When does early access open?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7A4A2E" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" style="flex: none; transition: transform .2s"><path d="M12 5v14M5 12h14"></path></svg></summary>
+<p style="margin: 12px 0 0; color: #6B4A36">[Your launch window]. Waitlist members get invited first, in the order they signed up.</p>
+</details>
+
+</section>
+
+<!-- FOOTER -->
+<footer style="background: #2E1A10; color: #E0CDB1">
+<div style="max-width: 1200px; margin: 0 auto; padding: 48px 24px; display: flex; flex-wrap: wrap; gap: 24px; justify-content: space-between; align-items: center; font-size: 15px">
+<span style="display: flex; align-items: center; gap: 10px; font-family: Outfit, sans-serif; font-weight: 700; font-size: 22px; letter-spacing: -0.02em; color: #F8EBD5"><img src="/icon.png" alt="" width="32" height="32" style="width: 32px; height: 32px; border-radius: 8px; box-shadow: 0 0 0 1px #5A3826">QuestPresso</span>
+<span>Digital loyalty for independent cafés.</span>
+<div style="display: flex; gap: 24px"><a href="#" style="color: #E0CDB1">Privacy</a><a href="#" style="color: #E0CDB1">Terms</a><a href="mailto:[hello@yourdomain.com]" style="color: #E0CDB1">Contact</a></div>
+</div>
+</footer>
+</div>
+<script src="/waitlist.js" defer></script>
+</body>
+</html>
